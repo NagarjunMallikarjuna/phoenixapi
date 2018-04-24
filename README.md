@@ -26,6 +26,12 @@ Steps:
 ```
 
 
+
+# Credits:
+- <a href="https://github.com/thenextfact/loopback-angular-authentication" target="_blank">thenextfact/loopback-angular-authentication</a>
+
+
+
 # Misc
 Follow Imdad: <a href="https://twitter.com/imdadareeph" target="_blank">Twitter</a>, <a href="https://www.facebook.com/imdadareeph" target="_blank">Facebook</a>
 
