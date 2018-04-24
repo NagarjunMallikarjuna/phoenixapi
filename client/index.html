@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Imdad's LoopBack</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/menu.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/Footer-with-button-logo.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body ng-app="app" class="bgfull">
+    <div class="page-loading">
+      <!--img id="loading_gif" src="/assets/img/loading.gif" alt="Loading..." /-->
+
+      <div class="bg_load"></div>
+      <div class="loading-wrapper">
+          <div class="inner">
+              <span>L</span>
+              <span>o</span>
+              <span>a</span>
+              <span>d</span>
+              <span>i</span>
+              <span>n</span>
+              <span>g</span>
+          </div>
+      </div>
+    </div>
+
+    <div ui-view id="ui-view"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-resource.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+    <script src="services/lb-services.js"></script>
+
+    <script src="app.config.js"></script>
+    <script src="services/auth.service.js"></script>
+    <script src="controllers/login.controller.js"></script>
+    <script src="controllers/register.controller.js"></script>
+    <script src="controllers/home.controller.js"></script>
+    <div class="container">
+      
+    </div>
+    <footer id="myFooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h2 class="logo">
+                    <a href="/">
+                       <!-- <img src="http://i66.tinypic.com/x6mp6p.jpg" width="150px" height="150px"></img> -->
+                       <img src="/assets/img/logo-phoenix.png" width="150px" height="150px"></img>
+                    </a></h2>
+            </div>
+            <div class="col-sm-2">
+                <h5>Imdad Areeph</h5>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">My work</a></li>
+                    <li><a href="#">Downloads</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h5>About me</h5>
+                <ul>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#">Reviews</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h5>Support</h5>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Help desk</a></li>
+                    <li><a href="#">Forums</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <div class="social-networks">
+                    <a href="https://twitter.com/imdadareeph" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/imdadareeph" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://github.com/imdadareeph" class="google"><i class="fa fa-github"></i></a>
+                </div>
+                <button type="button" class="btn btn-default">Contact Me</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <p>© 2018 Imdad Areeph , All rights reserved </p>
+    </div>
+</footer>
+  </body>
+</html>
